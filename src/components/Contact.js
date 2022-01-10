@@ -17,35 +17,55 @@ const Contact = ({ id, title, dark }) => {
           <div className={classes.titleandchoices}>
             <Typography variant="h5">CONTACT ME</Typography>
             <div className={classes.choices}>
-              <span>Say Hello</span>
+              <span>Less</span>
               <Radio
-                value="Say Hi"
-                checked={value === 'Say Hi'}
+                value="Less"
+                checked={value === 'Less'}
                 color="primary"
                 onChange={handlerChange}
               />
-              <span>Get a Quote</span>
+              <span>More</span>
               <Radio
-                value="Get a Quote"
-                checked={value === 'Get a Quote'}
+                value="More"
+                checked={value === 'More'}
                 color="primary"
                 onChange={handlerChange}
               />
             </div>
           </div>
           <form className={classes.form} noValidate autoComplete="off">
-            <TextField fullWidth label="Your name" />
+            <TextField
+              fullWidth
+              label="Your name"
+              placeholder="Just for display"
+            />
 
-            <TextField fullWidth label="Your e-mail" />
+            <TextField
+              fullWidth
+              label="Your e-mail"
+              placeholder="Just for display"
+            />
 
-            {value === 'Get a Quote' ? (
+            {value === 'More' ? (
               <>
-                <TextField fullWidth label="Needed Services" />
+                <TextField
+                  fullWidth
+                  label="Needed Services"
+                  placeholder="Just for display"
+                />
 
-                <TextField fullWidth label="Estimated Budget" />
+                <TextField
+                  fullWidth
+                  label="Estimated Budget"
+                  placeholder="Just for display"
+                />
               </>
             ) : null}
-            <TextField fullWidth label="Write a message" />
+            <TextField
+              fullWidth
+              label="Write a message"
+              placeholder="Just for display"
+            />
           </form>
           <Button variant="contained">Submit</Button>
         </Paper>
@@ -65,13 +85,12 @@ const useStyles = makeStyles((theme) => ({
   sectiondark: { background: '#fafafa', color: '#fff' },
   sectioncontent: {
     maxWidth: '80vw',
-    border: '2px solid red',
   },
   titleandchoices: {
     '& h5': { marginTop: theme.spacing(1) },
   },
   paper: {
-    background: 'tomato',
+    background: '#CD853F',
     marginTop: theme.spacing(4),
     color: '#fff',
     fontSize: '1.2rem',

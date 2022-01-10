@@ -16,12 +16,12 @@ import StarRating from './StarRating';
 const Technologies = () => {
   const classes = useStyles();
   const skills = [
-    { year: '2010', src: IconoReact, title: 'Lorem', stars: 4 },
-    { year: '2010', src: IconoReact, title: 'Lorem', stars: 4 },
-    { year: '2010', src: IconoReact, title: 'Lorem', stars: 4 },
-    { year: '2010', src: IconoReact, title: 'Lorem', stars: 4 },
-    { year: '2010', src: IconoReact, title: 'Lorem', stars: 4 },
-    { year: '2010', src: IconoReact, title: 'Lorem', stars: 4 },
+    { year: '2020', src: IconoReact, title: 'Lorem', stars: 4 },
+    { year: '2020', src: IconoReact, title: 'Lorem', stars: 4 },
+    { year: '2021', src: IconoReact, title: 'Lorem', stars: 4 },
+    { year: '2021', src: IconoReact, title: 'Lorem', stars: 4 },
+    { year: '2022', src: IconoReact, title: 'Lorem', stars: 4 },
+    { year: '2022', src: IconoReact, title: 'Lorem', stars: 4 },
   ];
 
   return (

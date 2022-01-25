@@ -10,21 +10,21 @@ import {
   // TimelineDot
 } from '@mui/lab';
 import { Typography, makeStyles, Paper } from '@material-ui/core';
-import IconoReact from '../images/react_icono.png';
-import Javascript from '../images/javascript.png';
 import Nodejs from '../images/nodejs.png';
+import Css from '../images/css.png';
 import StarRating from './StarRating';
 
 const Technologies = () => {
   const classes = useStyles();
-  const skills = [
-    { year: '2021', src: Javascript, title: 'JavaScript', stars: 4 },
-    { year: '2021', src: IconoReact, title: 'React', stars: 4 },
+
+  const study = [
+    { year: '2022', src: Nodejs, title: 'NodeJs', stars: 3 },
+    { year: '2022', src: Css, title: 'CSS', stars: 3 },
   ];
 
   return (
     <Timeline position="right">
-      {skills.map(({ year, title, stars, src }, index) => (
+      {study.map(({ year, title, stars, src }, index) => (
         <TimelineItem key={index}>
           <TimelineOppositeContent>
             <Typography variant="h6" color="textSecondary">

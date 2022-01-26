@@ -2,6 +2,7 @@ import margarita from './images/margaritaaa.png';
 import gmail from './images/gmail.jpg';
 import slack from './images/slack.png';
 import linkedin from './images/linked-in.png';
+import snapchat from './images/snapchat.png';
 
 const mockData = [
   {
@@ -25,9 +26,9 @@ const mockData = [
     link: 'https://slack-clone-6f38e.web.app/',
   },
   {
-    title: 'Test5 ',
-    image: margarita,
-    link: 'https://cocktaildrinks.netlify.app/',
+    title: 'SnapChat-Clone ',
+    image: snapchat,
+    link: 'https://snapchatclone-339401.web.app/',
   },
 ];
 

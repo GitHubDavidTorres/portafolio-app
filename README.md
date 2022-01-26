@@ -1,3 +1,2 @@
 
-
-https://portafolio-io.netlify.app/
+portafolio-ioo.netlify.app

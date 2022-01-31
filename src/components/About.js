@@ -10,7 +10,7 @@ import {
 import React from 'react';
 import TypeWriterEffect from 'react-typewriter-effect';
 import foto from '../images/react_foto.png';
-import Filedownload from '../images/CURRICULUM VITAE David Torres Santander  Valid.pdf';
+import Filedownload from '../images/CurriculumVitae2022.pdf';
 
 const About = ({ title, dark, id }) => {
   const classes = useStyles();

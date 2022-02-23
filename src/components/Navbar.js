@@ -26,7 +26,7 @@ const links = [
   },
   { id: 'skills', text: 'Skills', icon: <BuildIcon fontSize="large" /> },
   { id: 'work', text: 'My Work', icon: <WorkIcon fontSize="large" /> },
-  { id: 'contact', text: 'Contact', icon: <EmailIcon fontSize="large" /> },
+  // { id: 'contact', text: 'Contact', icon: <EmailIcon fontSize="large" /> },
 ];
 
 const scrollUp = () => {

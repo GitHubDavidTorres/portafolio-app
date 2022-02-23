@@ -3,6 +3,8 @@ import gmail from './images/gmail.jpg';
 import slack from './images/slack.png';
 import linkedin from './images/linked-in.png';
 import snapchat from './images/snapchat.png';
+import orderFood from './images/order-food.png';
+import ballGame from './images/ballGame.png';
 
 const mockData = [
   {
@@ -29,6 +31,16 @@ const mockData = [
     title: 'SnapChat-Clone ',
     image: snapchat,
     link: 'https://snapchatclone-339401.web.app/',
+  },
+  {
+    title: 'Order Food ',
+    image: orderFood,
+    link: 'https://orderfood-626d8.web.app',
+  },
+  {
+    title: 'Ball Game',
+    image: ballGame,
+    link: 'https://phaser-breakout-19f4f.web.app',
   },
 ];
 
